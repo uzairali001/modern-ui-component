@@ -1,5 +1,5 @@
 {
-  "name": "modern-ui-component",
+  "name": "@uzairali001/modern-ui-component",
   "version": "0.0.1",
   "description": "The UI component library for ReactJS",
   "scripts": {
@@ -23,5 +23,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/uzairali001"
+  }
 }
